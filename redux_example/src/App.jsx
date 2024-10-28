@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NormalCounter from './Components/NormalCounter'
 import ReduxCounter from './Components/ReduxCounter'
+import User from './Components/User'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-        <ReduxCounter></ReduxCounter>
+        <User></User>
       </div>
     </>
   )
