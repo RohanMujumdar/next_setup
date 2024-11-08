@@ -7,7 +7,6 @@ function NormalCounter() {
     const [val, setVal]=useState("")
     const incrementDelta=()=>{
         setDelta(Number(val))
-       
     }
 
     const increment=()=>{

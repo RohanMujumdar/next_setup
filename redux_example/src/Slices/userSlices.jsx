@@ -2,8 +2,8 @@ import React from 'react'
 import { createSlice } from '@reduxjs/toolkit'
 
 
-const userSlice=createSlice({
-    name:"userSlice",
+const userSlices=createSlice({
+    name:"userSlices",
     initialState:{
         user: null,
         loading: true,
@@ -28,12 +28,14 @@ const userSlice=createSlice({
 
     }
 })
-function userSlices() {
+function userComponent() {
   return (
     <div>
-      
+      I am Rohan
     </div>
   )
 }
 
+
+export const {pending, rejected, fulfilled}=userSlices.actions
 export default userSlices

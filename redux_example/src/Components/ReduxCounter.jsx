@@ -13,10 +13,10 @@ function ReduxCounter() {
   const dispatch=useDispatch()
 
   const incrementDelta=()=>{
-
     const delta=val===""?"1":val
     dispatch(actions.incrementDelta(Number(delta)))
   }
+  
   const increment=()=>{
     dispatch(actions.increment())
   }
